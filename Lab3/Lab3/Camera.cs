@@ -5,7 +5,7 @@ using System.Text;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Input;
 
-
+//modify
 namespace Lab3
 {
     public class Camera:Microsoft.Xna.Framework.GameComponent
