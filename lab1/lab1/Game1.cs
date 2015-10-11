@@ -18,6 +18,7 @@ namespace lab1
         SoundEffect bgm;
         SoundEffect movesound;
         float speed=1f;
+        //constructor
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
