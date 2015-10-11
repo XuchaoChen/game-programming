@@ -18,6 +18,7 @@ namespace lab1
         SoundEffect bgm;
         SoundEffect movesound;
         float speed=1f;
+        //constructor
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -73,7 +74,7 @@ namespace lab1
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
-            // TODO: Add your update logic here
+            // keyboard control
             if(Keyboard.GetState().IsKeyDown(Keys.Up)||Keyboard.GetState().IsKeyDown(Keys.Down)||Keyboard.GetState().IsKeyDown(Keys.Right)||Keyboard.GetState().IsKeyDown(Keys.Left))
             {
                 movesound.Play();
